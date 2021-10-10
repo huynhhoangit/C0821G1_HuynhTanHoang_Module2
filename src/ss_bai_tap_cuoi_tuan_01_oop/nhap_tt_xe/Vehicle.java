@@ -1,4 +1,4 @@
-package ss06_bai_tap_cuoi_tuan_01_oop.nhap_tt_xe;
+package ss_bai_tap_cuoi_tuan_01_oop.nhap_tt_xe;
 
 public class Vehicle {
     private String nameOwner;   // tên chủ sở hữu
