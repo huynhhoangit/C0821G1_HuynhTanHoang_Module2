@@ -1,4 +1,4 @@
-package ss05_access_modifier_static_method_static_property.thuc_hanh.static_method;
+package ss05_access_modifier.thuc_hanh.static_method;
 
 public class Main {
     public static void main(String[] args) {
