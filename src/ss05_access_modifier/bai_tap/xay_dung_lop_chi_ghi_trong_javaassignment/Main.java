@@ -1,4 +1,4 @@
-package ss05_access_modifier_static_method_static_property.bai_tap.xay_dung_lop_chi_ghi_trong_javaassignment;
+package ss05_access_modifier.bai_tap.xay_dung_lop_chi_ghi_trong_javaassignment;
 
 public class Main {
     public static void main(String[] args) {

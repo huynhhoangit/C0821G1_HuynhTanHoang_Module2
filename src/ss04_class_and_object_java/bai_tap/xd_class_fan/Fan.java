@@ -65,4 +65,5 @@ public class Fan {
         status += ("Color is " + this.color + "\n");
         return status;
     }
+
 }
