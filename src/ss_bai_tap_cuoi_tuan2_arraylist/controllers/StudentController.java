@@ -29,13 +29,12 @@ public class StudentController {
                     break;
                 case 2:
                     System.out.println("Teacher Management");
-//                    displayTeacherManagement();
+
                     System.out.println("Tính Năng Chưa Được Cập Nhập");
                     break;
                 case 3:
                     System.out.println("Staff Management");
-//                    displayFacilityManagement();
-                    System.out.println("Tính Năng Chưa Được Cập Nhập");
+                 System.out.println("Tính Năng Chưa Được Cập Nhập");
                     break;
 
                 case 4:
@@ -53,7 +52,11 @@ public class StudentController {
             System.out.println("1 Display list Student");
             System.out.println("2 Add new Student");
             System.out.println("3 Edit Student");
-            System.out.println("4 Return main menu");
+            System.out.println("4 Delete Student");
+            System.out.println("5 Search Student");
+            System.out.println("6 sắp xếp điểm từ thấp  đến Cao");
+            System.out.println("7 sắp xếp điểm từ cao đến thấp");
+            System.out.println("8 Return main menu");
 
             int choice1 = Integer.parseInt(scanner.nextLine());
             switch (choice1) {
@@ -71,6 +74,22 @@ public class StudentController {
                     StudentManager.edit();
                     break;
                 case 4:
+                    System.out.println("4 Delete Student");
+                    StudentManager.delete();
+                    break;
+                case 5:
+                    System.out.println("5 Search Student");
+                    StudentManager.search();
+                    break;
+                case 6:
+                    System.out.println("6 Sắp Xếp Điểm Tăng Dần");
+                    StudentManager.sortAscendingToStudentScores();
+                    break;
+                case 7:
+                    System.out.println("6 Sắp Xếp Điểm Giảm Dần");
+                    StudentManager.sortDescendingToStudentScores();
+                    break;
+                case 8:
                     System.out.println("4 Return main menu");
                     StudentController.displaymenu();
                     break;
